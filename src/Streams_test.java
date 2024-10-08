@@ -1,6 +1,7 @@
 import java.util.List;
 import java.util.stream.Collectors;
 
+import org.bouncycastle.util.Selector;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,7 +19,7 @@ public class Streams_test {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-		Select   options1 = new Select(driver.findElements(By.id("dropdown-class-example"));
+		Select<WebElement>   options1 = new Select(driver.findElements(By.id("dropdown-class-example"));
 		List<WebElement> sel = options1.stream().filter(o->o.getText().contains("Option1")).collect(Collectors.toList());
 		System.out.println("selected ****"+options1);
 		System.out.println("selected ****"+sel);
