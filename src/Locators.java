@@ -121,6 +121,8 @@ public class Locators {
 		}
 		}
 		
+		System.out.println("Testinng Completed");
+		
 		/*
 		String brand =  rootnode.get("brand").asText();
 		System.out.println(" Brands : " +brand);
