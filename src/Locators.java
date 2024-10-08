@@ -124,6 +124,7 @@ public class Locators {
 		System.out.println("Testinng Completed");
 		
 		System.out.println("push from eclips");
+		System.out.println("push from eclips");
 		
 		
 		/*
