@@ -96,6 +96,7 @@ public class Locators {
 		
 		
 		System.out.println("Step2");
+		System.out.println("Step3");
 		
 		Thread.sleep(3000);
 		//driver.findElement(By.cssSelector("button.reset-pwd-btn")).click();
